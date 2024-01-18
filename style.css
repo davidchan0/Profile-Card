@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.personal-image {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 50%;
+    background: white;
+    padding: 3px;
+}
+
+.personal-image .personal-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 4px solid green;
+}
+
+body {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at center, #051937 0, #004d7a, #008793, #00bf72, #a8eb12 100%);
+}
+
+.card {
+    border-radius: 50px;
+    background-color: #FFF;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+.image-content, .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding: 20px;
+}
+
+.biography {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+.photo-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    border-radius: 25px 25px 0 25px;
+}
+
+.image-content {
+    position: relative;
+}
+
+.button {
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px 16px;
+    background-color: #008793;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: green;
+}
+
+a {
+    text-decoration: none;
+}
